@@ -1,0 +1,134 @@
+/* Embrace the Coding Journey */
+
+/* Resetting defaults */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* The Coding Canvas */
+body {
+    font-family: 'Fira Code', monospace;
+    line-height: 1.6;
+    background-color: #2d2d2d;
+    color: #cfcfcf;
+}
+
+/* The Coder's Workshop */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* The Code Forge */
+header, nav, section, footer {
+    margin-bottom: 40px;
+}
+
+/* Header - Where Magic Begins */
+header {
+    background-color: #1e1e1e;
+    color: #61dafb;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+/* Navigation - The Code Explorer */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #cfcfcf;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff7f50; /* Coral color */
+}
+
+/* Section - Code Chronicles */
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.3em;
+    line-height: 1.5;
+    color: #aaa;
+}
+
+/* Button - Execute Your Ideas */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #61dafb; /* React blue */
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7f50; /* Coral color */
+}
+
+/* Project - Code Creations */
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Footer - The Code Signature */
+footer {
+    background-color: #1e1e1e;
+    color: #61dafb;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive - Adapting to Different Screens */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+}
